@@ -2,8 +2,10 @@
 <br>
 <br>
 <div align="center">
-  <img src="./img/title.png" width="500px">
+  <img src="./for_readme/readme_img.gif" width="100px">
 </div>
+<br>
+<br>
 <div align="center">
   <img src="./img/title.png" width="500px">
 </div>
@@ -18,6 +20,6 @@
   <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1만 시간을 달성하기 위해 나는 며칠이나 훈련해야 할까?</p>
   <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp전문가가 되고 싶은 분야와 하루 훈련시간을 입력하면,</p>
   <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'1만 시간의 법칙'이 필요한 훈련 일 수를 자동으로 계산해 줍니다!</p>
-  <h1>👀 How to use</h1>
-  
-
+<br>
+<br>
+<br>
