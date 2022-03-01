@@ -35,14 +35,26 @@
 }
 
 html {
+    height: 100%;
     font-size: 16px;
 }
 
-html, body {
-    height: 100%;
+@media all and (max-width: 769px){
+    html {
+        height: 100%;
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 426px){
+    html {
+        height: 100%;
+        font-size: 8px;
+    }
 }
 
 body {
+    height: 100%;
     font-family: 'GmarketSansMedium';
     background-color: #5B2386;
     color: #FFF;
@@ -296,5 +308,3 @@ button {
     padding: 1.25rem 0;
     text-align: center;
 }
-
-
