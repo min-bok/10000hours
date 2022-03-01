@@ -48,8 +48,19 @@ html {
 
 @media all and (max-width: 426px){
     html {
-        height: 100%;
         font-size: 8px;
+    }
+
+    .title {
+        margin-top: 7.5rem;
+    }
+    
+    .intro .quotes {
+        transform: scale(0.6);
+    }
+
+    #copyright {
+        transform: scale(0.6);
     }
 }
 
