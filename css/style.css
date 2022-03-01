@@ -34,6 +34,10 @@
     }
 }
 
+html {
+    font-size: 16px;
+}
+
 html, body {
     height: 100%;
 }
@@ -47,7 +51,7 @@ body {
 /* 메인 컨텐츠 */
 
 .wrapper {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 /* 제목 이미지 */
@@ -56,17 +60,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .title .clock_img {
-    width: 265px;
-    height: 265px;
+    width: 16.563rem;
+    height: 16.563rem;
 }
 
 .title_img {
     position: absolute;
-    width: 564px;
+    width: 35.25rem;
 }
 
 .title_img img {
@@ -78,14 +82,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .intro .intro_saying {
     font-family: 'OTEnjoystoriesBA';
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #F5DF4D;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .intro .explain {
@@ -93,22 +97,22 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 
 .intro .quotes {
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .intro .explain p {
     position: absolute;
-    font-size: 17px;
+    font-size: 1.063rem;
     line-height: 1.7;
 }
 
 .intro .explain span {
     font-family: 'GmarketSansBold';
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* 사용자 입력 */
@@ -116,24 +120,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 20px;
-    margin-bottom: 70px;
+    font-size: 1.25rem;
+    margin-bottom: 4.375rem;
 }
 
 .inputs div {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .inputs input {
-    padding: 15px 20px; /*상하, 좌우*/
-    margin: 0 15px;
+    padding: 0.938rem 1.25rem; /*상하, 좌우*/
+    margin: 0 0.938rem;
     border: none;
-    border-radius: 10px;
-    font-size: 20px;
+    border-radius: 0.625rem;
+    font-size: 1.25rem;
     font-family: 'GmarketSansMedium';
-    width: 200px;
+    width: 12.5rem;
 }
 
 .inputs input::placeholder {
@@ -143,12 +147,12 @@ body {
 /* 버튼 공통 스타일 */
 button {
     font-family: 'GmarketSansBold';
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #5B2386;
     background-color: #FCEE21;
     border: none;
-    border-radius: 30px;
-    padding: 10px 40px;
+    border-radius: 1.875rem;
+    padding: 0.625rem 2.5rem;
     cursor: pointer;
     word-break: keep-all;
 }
@@ -156,7 +160,7 @@ button {
 .start {
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 
 .start .btn_wrap {
@@ -165,20 +169,20 @@ button {
 
 .start .click_img {
     position: absolute;
-    right: -75px;
-    bottom: -25px;
+    right: -4.688rem;
+    bottom: -1.563rem;
 }
 
 /* 결과 로딩 */
 .result_loading {
     display: none;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 
 .result_loading .img_wrap {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
 }
 
 .result_loading .img_wrap img {
@@ -193,7 +197,7 @@ button {
     flex-direction: column;
     align-items: center;
     line-height: 1.5;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 
 .result .result_wrap {
@@ -205,24 +209,24 @@ button {
 .result .result_wrap div {
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .result span {
-    padding: 0 20px;
+    padding: 0 1.25rem;
     font-family: 'GmarketSansBold';
-    font-size: 70px;
+    font-size: 4.375rem;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 
 .buttons .share button {
     background-color: #FFF;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 #modal {
@@ -242,9 +246,9 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 600px;
+    width: 37.5rem;
     background-color: #FFF;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 #modal .cheer {
@@ -254,28 +258,28 @@ button {
 }
 
 #modal .cheer h1 {
-    font-size: 80px;
-    margin-top: 20px;
+    font-size: 5rem;
+    margin-top: 1.25rem;
 }
 
 #modal .cheer h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 #modal .licat_img {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 #modal .close_btn {
-    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 15%);
-    margin-bottom: 20px;
+    box-shadow: 0rem 0.313rem 1.25rem 0.063rem rgba(0, 0, 0, 15%);
+    margin-bottom: 1.25rem;
 }
 
 #modal .btn p {
     color: #747474;
-    font-size: 13px;
+    font-size: 0.813rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 /* 저작권 */
@@ -283,13 +287,13 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 #copyright p {
-    font-size: 10px;
+    font-size: 0.625rem;
     line-height: 1.5;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     text-align: center;
 }
 
