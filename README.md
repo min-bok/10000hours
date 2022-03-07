@@ -22,4 +22,30 @@
   <p>'1만 시간의 법칙'은 1만 시간 달성을 위해 필요한 훈련 일 수를 자동으로 계산해 줍니다!</p>
 <br>
 <br>
+
+# ✏ Skills
+HTML, CSS, JavaScript
+
 <br>
+<br>
+
+# 🖥 Responsive
+Desktop, Laptop, Tablet, Mobile
+
+<br>
+<br>
+
+# 👀 Demo
+https://minbok-1998.github.io/10000hours/
+
+<br>
+<br>
+ 
+# ✨프로젝트 소개
+개인프로젝트 입니다.<br>
+
+<br>
+<br>
+
+# 📆 제작기간
+2021년 11월
